@@ -8,7 +8,7 @@ Conceito:
 3. Em seguida, o broker encaminha a mensagem a todos os clientes que assinam esse tópico.
 
 ### Tipos de Mensagens
-1. CONNECT
+1. __CONNECT__
   - cleanSession
   - username
   - password
@@ -17,21 +17,21 @@ Conceito:
   - lastWillMessage
   - keepAlive
 
-2. CONNACK
+2. __CONNACK__
   - sessionPresent
   - returnCode
 
-3. SUBSCRIBE
+3. __SUBSCRIBE__
   - qos
   - topico
 
-4. SUBACK
+4. __SUBACK__
   - returnCode
 
-5. UNSUBSCRIBE
+5. __UNSUBSCRIBE__
   - topico
 
-6. PUBLISH
+6. __PUBLISH__
   - topicName
   - qos
   - retainFlag
